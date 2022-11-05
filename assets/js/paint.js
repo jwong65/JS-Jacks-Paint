@@ -5,7 +5,7 @@ function configureListeners() {
 
      for (var i = 0; i < images.length; i++) {        
         // iterate over images and add mouseover event listeners\
-        images[i].addEventListener('mouseover'      
+        images[i].addEventListener('mouseover')      
     } 
 }
 
@@ -61,13 +61,13 @@ function getProductInfo(paintColor) {
           default:              
     }
 
-    function updatePrice(colorName, price)
-    {       
-        let colorPrice = // select element with corresponding id
+    //function updatePrice(colorName, price)
+    //{       
+    //    let colorPrice = // select element with corresponding id
         // display price
         
-        let color = // select element with corresponding id
+    //    let color = // select element with corresponding id
         //display color name
-    }
+//    }
     
 }
