@@ -5,9 +5,11 @@ function configureListeners() {
 
      for (var i = 0; i < images.length; i++) {        
         // iterate over images and add mouseover event listeners\
-        images[i].addEventListener('mouseover', ()=> {
-            images[i].style.opacity= 0;
-        })      
+
+        //need to get each img id in the HTML
+        document.getElementById(images[i].id).addEventListener('mouseover',()=>{
+            images[i].style.opacity=.1;
+        })
     } 
 }
 
