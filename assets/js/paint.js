@@ -10,6 +10,8 @@ function configureListeners() {
         document.getElementById(images[i].id).addEventListener('mouseover',()=>{
             images[i].style.opacity=.1;
         })
+
+        //have to use the addOpacity function
     } 
 }
 
@@ -35,7 +37,9 @@ function getProductInfo(paintColor) {
     let colorName;  
     
     switch (paintColor) {
-        case 'pn1':           
+        case 'pn1':  
+            price: $14.99
+            name: "Lime Green"         
             // set variables for price and color name and invoke a function to update the price     
             break;           
         case 'pn2':
