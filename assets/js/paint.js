@@ -43,27 +43,43 @@ function getProductInfo(paintColor) {
             // set variables for price and color name and invoke a function to update the price     
             break;           
         case 'pn2':
+            price=11.14
+            colorName="Medium Brown"
             // set variables for price and color name and invoke a function to update the price    
             break;            
         case 'pn3':
+            price=22.99
+            colorName="Royal Blue"
             // set variables for price and color name and invoke a function to update the price  
             break;   
         case 'pn4':
+            price=4.99
+            colorName="Solid Black"
             // set variables for price and color name and invoke a function to update the price  
             break;   
         case 'pn5':
+            colorName="Solid Cyan"
+            price=8.22
             // set variables for price and color name and invoke a function to update the price       
             break;   
         case 'pn6':
+            colorName="Solid Purple"
+            price=11.99
             // set variables for price and color name and invoke a function to update the price        
             break;   
         case 'pn7':
+            colorName="Solid Red"
+            price=13.42
             // set variables for price and color name and invoke a function to update the price 
             break;   
         case 'pn8':
+            colorName="Solid White"
+            price=21.98
             // set variables for price and color name and invoke a function to update the price   
             break;   
         case 'pn9':
+            colorName="Solid Yellow"
+            price=14.99
             // set variables for price and color name and invoke a function to update the price 
             break;   
           default:              
