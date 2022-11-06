@@ -8,6 +8,8 @@ function configureListeners() {
 
         //need to get each img id in the HTML
         document.getElementById(images[i].id).addEventListener('mouseover',addOpacity)
+       
+        //document.getElementById(images[i].id).addEventListener('mouseover', removeOpacity)
     
 
         //have to use the addOpacity function
