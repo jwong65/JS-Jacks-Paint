@@ -7,9 +7,8 @@ function configureListeners() {
         // iterate over images and add mouseover event listeners\
 
         //need to get each img id in the HTML
-        document.getElementById(images[i].id).addEventListener('mouseover',()=>{
-            images[i].style.opacity=.1;
-        })
+        document.getElementById(images[i].id).addEventListener('mouseover',addOpacity())
+    
 
         //have to use the addOpacity function
     } 
@@ -97,10 +96,10 @@ function getProductInfo(paintColor) {
 
     function updatePrice(colorName, price)
     {       
-        let price = null// select element with corresponding id
+        let price = document.getElementById("color-price")// select element with corresponding id
         // display price
         
-        let colorName = null// select element with corresponding id
+        let colorName = document.getElementById("color-name")// select element with corresponding id
         //display color name
       }
     
