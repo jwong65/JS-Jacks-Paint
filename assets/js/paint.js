@@ -80,18 +80,19 @@ function getProductInfo(paintColor) {
         case 'pn9':
             colorName="Solid Yellow"
             price=14.99
+            updatePrice(colorName, price)
             // set variables for price and color name and invoke a function to update the price 
             break;   
           default:              
     }
 
-    //function updatePrice(colorName, price)
-    //{       
-    //    let colorPrice = // select element with corresponding id
+    function updatePrice(colorName, price)
+    {       
+        let price = null// select element with corresponding id
         // display price
         
-    //    let color = // select element with corresponding id
+        let colorName = null// select element with corresponding id
         //display color name
-//    }
+      }
     
 }
