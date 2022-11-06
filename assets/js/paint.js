@@ -38,8 +38,8 @@ function getProductInfo(paintColor) {
     
     switch (paintColor) {
         case 'pn1':  
-            price: $14.99
-            name: "Lime Green"         
+            price= 14.99
+            colorName= "Lime Green"         
             // set variables for price and color name and invoke a function to update the price     
             break;           
         case 'pn2':
