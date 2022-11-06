@@ -10,7 +10,7 @@ function configureListeners() {
         document.getElementById(images[i].id).addEventListener('mouseover',addOpacity)
        
         document.getElementById(images[i].id).addEventListener('mouseover', ()=>{
-            document.getElementById(images[i].id).style.opacity=0;
+            document.getElementById(images[i].id).style.opacity=0.1;
         })
     
 
