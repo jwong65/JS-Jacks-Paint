@@ -9,7 +9,9 @@ function configureListeners() {
         //need to get each img id in the HTML
         document.getElementById(images[i].id).addEventListener('mouseover',addOpacity)
        
-        //document.getElementById(images[i].id).addEventListener('mouseover', removeOpacity)
+        document.getElementById(images[i].id).addEventListener('mouseover', ()=>{
+            document.getElementById(images[i].id).style.opacity=0;
+        })
     
 
         //have to use the addOpacity function
@@ -24,7 +26,7 @@ function addOpacity(event) {
 function removeOpacity(event) {
      //remove appropriate CSS class
 
-    let element = document.getElementById('color-price');
+     let element = document.getElementById('color-price');
         element.textContent = '';
         
     let color = document.getElementById('color-name');
