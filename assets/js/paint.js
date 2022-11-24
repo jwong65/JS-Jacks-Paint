@@ -9,9 +9,8 @@ function configureListeners() {
         //need to get each img id in the HTML
         document.getElementById(images[i].id).addEventListener('mouseover',addOpacity)
        
-        document.getElementById(images[i].id).addEventListener('mouseover', ()=>{
-            document.getElementById(images[i].id).style.opacity=0.1;
-        })
+        document.getElementById(images[i].id).addEventListener('mouseout', removeOpacity)
+        
     
 
         //have to use the addOpacity function
@@ -20,7 +19,11 @@ function configureListeners() {
 
 function addOpacity(event) {
     // add appropriate CSS class
-    getProductInfo(event.target.id);     
+    getProductInfo(event.target.id);   
+    
+    //There is a .dim in CSS.
+    //https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+    this.classList.add('dim')
 }
 
 function removeOpacity(event) {
